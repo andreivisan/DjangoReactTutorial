@@ -99,10 +99,10 @@ export default class CreateRoomPage extends Component {
                     </FormControl>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <Button color="primary" variant="contained" onClick={this.handleRoomButtonPressed} >Create A Room</Button>
+                    <Button color="primary" variant="contained" onClick={this.handleRoomButtonPressed} > Create A Room </Button>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <Button color="secondary" variant="contained" to="/" component={Link} >Back</Button>
+                    <Button color="secondary" variant="contained" to="/" component={Link} > Back </Button>
                 </Grid>
             </Grid>
         );
